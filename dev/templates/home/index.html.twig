@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Home page{% endblock %}
+
+{% block body %}
+
+    <div ref="words" data-words={{ parking|json_encode }}></div>
+
+    <div id="app">
+        <app></app>
+    </div>
+{% endblock %}
