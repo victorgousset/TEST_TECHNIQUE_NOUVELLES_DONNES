@@ -18,7 +18,13 @@ export default {
     return {
       message_Parking: "Parking",
       message_Car: "Car",
-      words: []
+      words: [],
+      words_Car: []
+
+
+
+
+      
     };
   },
   mounted() {
